@@ -17,7 +17,11 @@ body{
 }
 img{
     border-radius: 50%;
-
+.profile-picture {
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: Rounded corners */
+}
 }
 h1{
 color: hsl(0, 0%, 100%);
